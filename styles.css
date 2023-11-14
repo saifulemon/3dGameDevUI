@@ -8,6 +8,8 @@
 3. reusable css
 4. Header section
 5. hero section
+6. Trending section
+#. footer section
 0. responsive
  
  **********************************************/
@@ -143,11 +145,19 @@ a {
   left: -60px;
 }
 
+/************* 6. Trending section *************/
+.circle {
+  position: absolute;
+  top: -67px;
+  right: 125px;
+}
+
+/************* #. footer section *************/
 .btn-floating {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background: #fff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
 }
 
 /************* 0. responsive *************/
@@ -158,6 +168,15 @@ a {
 
   .social-icon {
     margin-top: 120px;
+  }
+
+  .trending-title {
+    width: 55%;
+    margin-inline: auto;
+  }
+
+  .trending-sub {
+    width: 45%;
   }
 }
 
