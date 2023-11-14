@@ -7,6 +7,7 @@
 2. Variable
 3. reusable css
 4. Header section
+5. hero section
 0. responsive
  
  **********************************************/
@@ -21,6 +22,8 @@
 
 body {
   background: #070707;
+  color: #fff;
+  overflow-x: hidden;
 }
 
 html {
@@ -46,6 +49,15 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 187.5%;
+}
+
+.subtitle {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%;
 }
 
 .primary-btn {
@@ -89,4 +101,76 @@ a {
 
 .navbar-nav li a:hover:after {
   width: 100%;
+}
+
+/************* 5. hero section *************/
+.heroimg {
+  position: relative;
+  top: -100px;
+  left: 90px;
+}
+
+.threed-title {
+  color: #e87d0e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.2%;
+}
+
+.herobtn {
+  border-radius: 40px;
+  background: linear-gradient(92deg, #fa8305 2.08%, #fb9e3c 117.25%);
+  font-size: 16px;
+}
+
+.cry {
+  position: absolute;
+  top: 85px;
+  left: 100px;
+}
+
+.unreal {
+  position: absolute;
+  top: 95px;
+  right: 100px;
+}
+
+.unity1 {
+  position: absolute;
+  top: 300px;
+  left: -60px;
+}
+
+/************* 0. responsive *************/
+@media (min-width: 769px) {
+  .hero-p {
+    width: 85%;
+  }
+}
+
+@media (max-width: 769px) {
+  .offcanvas-body {
+    background: #070707;
+  }
+  .herobtn {
+    display: flex;
+  }
+
+  .cry,
+  .unity1,
+  .unreal {
+    display: none;
+  }
+
+  .heroimg {
+    left: 122px;
+  }
+}
+
+@media (max-width: 426px) {
+  .heroimg {
+    left: 68px;
+  }
 }
