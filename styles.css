@@ -143,10 +143,21 @@ a {
   left: -60px;
 }
 
+.btn-floating {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+}
+
 /************* 0. responsive *************/
 @media (min-width: 769px) {
   .hero-p {
     width: 85%;
+  }
+
+  .social-icon {
+    margin-top: 120px;
   }
 }
 
