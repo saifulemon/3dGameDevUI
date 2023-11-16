@@ -13,6 +13,7 @@
 8. footer top
 9. footer section
 10. About Hero
+11. Work section
 0. responsive
  **********************************************/
 
@@ -177,7 +178,7 @@ section.services-sec {
 
 .subscribe-area {
   border-radius: 15px;
-  background: #1C140F;
+  background: #1c140f;
 }
 
 .subs-btn {
@@ -192,7 +193,7 @@ section.services-sec {
   height: 33px;
   border-radius: 50%;
   background: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .btn-floating:hover {
@@ -209,9 +210,35 @@ section.services-sec {
   width: 100%;
 }
 
+/************* 11. Work section *************/
+.card {
+  border-radius: 20px;
+  background: #1c140f;
+  box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wrk-c-title {
+  width: 140px;
+  padding: 8px 13px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 8px;
+  background: rgba(176, 0, 220, 0.11);
+}
+
+.card-s-title {
+  font-size: 14px;
+}
+
+.c-title3 {
+  background: rgba(0, 220, 141, 0.11) !important;
+}
+
 /************* 0. responsive *************/
 @media (min-width: 769px) {
-  .hero-p, .about-h-title {
+  .hero-p,
+  .about-h-title {
     width: 85%;
   }
 
