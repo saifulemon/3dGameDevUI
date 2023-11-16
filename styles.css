@@ -236,11 +236,19 @@ section.services-sec {
 }
 
 .work-bottom {
-  background: #1C140F;
+  background: #1c140f;
 }
 
 .w-b-s {
   font-size: 28px !important;
+}
+
+.team-title {
+  color: #e8e8e8;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 202.5%;
 }
 
 /************* 0. responsive *************/
