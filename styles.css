@@ -12,8 +12,8 @@
 7. Services section
 8. footer top
 9. footer section
+10. About Hero
 0. responsive
- 
  **********************************************/
 
 /************* 1. Default css ************/
@@ -80,6 +80,10 @@ a {
   background: #fff;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.current {
+  color: var(--primary-color);
 }
 
 /************* 4. Header section *************/
@@ -178,21 +182,36 @@ section.services-sec {
 
 .subs-btn {
   position: absolute;
-  top: 8px;
+  top: 7px;
   right: 7px;
 }
 
 /************* 9. footer section *************/
 .btn-floating {
-  width: 24px;
-  height: 24px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   background: #fff;
+  transition: .3s;
+}
+
+.btn-floating:hover {
+  background: var(--primary-color) !important;
+}
+
+/************* 10. About Hero *************/
+.about-h-bg {
+  background-image: url("assets/images/about-h-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 656px;
+  width: 100%;
 }
 
 /************* 0. responsive *************/
 @media (min-width: 769px) {
-  .hero-p {
+  .hero-p, .about-h-title {
     width: 85%;
   }
 
@@ -242,10 +261,18 @@ section.services-sec {
   .heroimg {
     left: 122px;
   }
+
+  .about-h-bg {
+    height: 520px;
+  }
 }
 
 @media (max-width: 426px) {
   .heroimg {
     left: 68px;
+  }
+
+  .about-h-bg {
+    height: 310px;
   }
 }
