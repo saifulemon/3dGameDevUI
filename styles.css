@@ -195,6 +195,12 @@ section.services-sec {
     width: 75%;
     margin-inline: auto;
   }
+
+  .project-sub {
+    width: 43%;
+    margin-inline: auto;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 769px) {
