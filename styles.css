@@ -10,7 +10,8 @@
 5. hero section
 6. Trending section
 7. Services section
-#. footer section
+8. footer top
+9. footer section
 0. responsive
  
  **********************************************/
@@ -164,7 +165,24 @@ section.services-sec {
   margin-top: 108px;
 }
 
-/************* #. footer section *************/
+/************* 8. footer top *************/
+.footer-top {
+  background-image: url("assets/images/footer-topbg.png");
+  background-repeat: no-repeat;
+}
+
+.subscribe-area {
+  border-radius: 15px;
+  background: #1C140F;
+}
+
+.subs-btn {
+  position: absolute;
+  top: 8px;
+  right: 7px;
+}
+
+/************* 9. footer section *************/
 .btn-floating {
   width: 24px;
   height: 24px;
