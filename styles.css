@@ -235,6 +235,14 @@ section.services-sec {
   background: rgba(0, 220, 141, 0.11) !important;
 }
 
+.work-bottom {
+  background: #1C140F;
+}
+
+.w-b-s {
+  font-size: 28px !important;
+}
+
 /************* 0. responsive *************/
 @media (min-width: 769px) {
   .hero-p,
@@ -264,6 +272,14 @@ section.services-sec {
     width: 43%;
     margin-inline: auto;
     font-size: 14px;
+  }
+
+  .w-b-s {
+    width: 73%;
+  }
+
+  .w-b-s-t {
+    width: 74%;
   }
 }
 
