@@ -44,7 +44,7 @@ a {
 /************* 2. Variable *************/
 :root {
   --primary-color: #fa9021;
-  --secondary-color: #e87d0e;
+  --secondary-color: #DC7000;
 }
 
 /************* 3. reusable css *************/
@@ -68,7 +68,7 @@ a {
 }
 
 .primary-btn {
-  display: inline-flex;
+  display: flex;
   padding: 10px 25px;
   justify-content: center;
   align-items: center;
@@ -87,6 +87,12 @@ a {
 
 .current {
   color: var(--primary-color);
+}
+
+.blog-btn {
+  background-color: var(--secondary-color) !important;
+  border-radius: 1px !important;
+  padding-inline: 2rem;
 }
 
 /************* 4. Header section *************/
