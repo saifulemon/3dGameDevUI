@@ -17,6 +17,7 @@
 12. team section
 13. Counter section
 14. Customer section
+15. News Hero
 0. responsive
  **********************************************/
 
@@ -45,7 +46,7 @@ a {
 /************* 2. Variable *************/
 :root {
   --primary-color: #fa9021;
-  --secondary-color: #DC7000;
+  --secondary-color: #dc7000;
 }
 
 /************* 3. reusable css *************/
@@ -274,7 +275,7 @@ section.services-sec {
   align-items: center;
   justify-content: center;
   padding: 30px 0;
-  border-right: 2px solid #EEEFF2;
+  border-right: 2px solid #eeeff2;
 }
 
 .counter-icon {
@@ -307,7 +308,7 @@ section.services-sec {
 
 /************* 14. Customer section *************/
 .customer-section {
-  background: #1C140F;
+  background: #1c140f;
 }
 
 .customer-wraper {
@@ -323,7 +324,7 @@ section.services-sec {
 }
 
 .testimonial:hover {
-  border: 2px solid #DC7000;
+  border: 2px solid #dc7000;
 }
 
 .testimonial-top {
@@ -360,6 +361,23 @@ section.services-sec {
 
 .testimonial-bottom p {
   color: #0b132a;
+}
+
+/************* 15. News Hero *************/
+.serch-form {
+  border-radius: 10px;
+  background: #1c140f;
+  padding: 10px;
+  padding-left: 3.5rem;
+  border: none;
+  color: #fff;
+}
+
+.search-i {
+  position: absolute;
+  color: #dfdbdb;
+  left: 38%;
+  top: 12px;
 }
 
 /************* 0. responsive *************/
@@ -456,7 +474,7 @@ section.services-sec {
   }
 
   .counter-sec {
-    padding-block: .8rem;
+    padding-block: 0.8rem;
   }
 
   .couter-wrap {
