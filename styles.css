@@ -47,6 +47,7 @@ a {
 :root {
   --primary-color: #fa9021;
   --secondary-color: #dc7000;
+  --news-btn: #2351F5;
 }
 
 /************* 3. reusable css *************/
@@ -95,6 +96,27 @@ a {
   background-color: var(--secondary-color) !important;
   border-radius: 1px !important;
   padding-inline: 2rem;
+}
+
+.news-btn {
+  background-color: var(--news-btn) !important;
+  border: none;
+}
+
+.pink-btn {
+  background: #FF8484 !important;
+}
+
+.orng-btn {
+  background: #FF7C32 !important;
+}
+
+.prpl-btn {
+  background: #9921C3 !important;
+}
+
+.greenbtn {
+  background: #23A54F !important;
 }
 
 /************* 4. Header section *************/
