@@ -18,6 +18,7 @@
 13. Counter section
 14. Customer section
 15. News Hero
+16. form section
 0. responsive
  **********************************************/
 
@@ -47,7 +48,7 @@ a {
 :root {
   --primary-color: #fa9021;
   --secondary-color: #dc7000;
-  --news-btn: #2351F5;
+  --news-btn: #2351f5;
 }
 
 /************* 3. reusable css *************/
@@ -104,19 +105,19 @@ a {
 }
 
 .pink-btn {
-  background: #FF8484 !important;
+  background: #ff8484 !important;
 }
 
 .orng-btn {
-  background: #FF7C32 !important;
+  background: #ff7c32 !important;
 }
 
 .prpl-btn {
-  background: #9921C3 !important;
+  background: #9921c3 !important;
 }
 
 .greenbtn {
-  background: #23A54F !important;
+  background: #23a54f !important;
 }
 
 /************* 4. Header section *************/
@@ -400,6 +401,26 @@ section.services-sec {
   color: #dfdbdb;
   left: 38%;
   top: 12px;
+}
+
+/************* 16. form section *************/
+.form-section {
+  background: #1c140f;
+}
+
+.form-group label {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 175.4%;
+}
+
+.form-group input,
+textarea {
+  border-radius: 9px;
+  border: 0.6px solid #cecece !important;
+  background: rgba(255, 255, 255, 0.07);
+  padding-block: 12px;
 }
 
 /************* 0. responsive *************/
