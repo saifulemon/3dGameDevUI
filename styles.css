@@ -16,6 +16,7 @@
 11. Work section
 12. team section
 13. Counter section
+14. Customer section
 0. responsive
  **********************************************/
 
@@ -304,7 +305,70 @@ section.services-sec {
   border: none;
 }
 
+/************* 14. Customer section *************/
+.customer-section {
+  background: #1C140F;
+}
+
+.customer-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial {
+  border: 2px solid #dddddd;
+  flex-basis: 31%;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.testimonial:hover {
+  border: 2px solid #DC7000;
+}
+
+.testimonial-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.feedback {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.feedback img {
+  width: 50px;
+}
+
+.customer-name h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.customer-name p {
+  font-size: 14px;
+}
+
+.rating p i {
+  color: #fea250;
+  padding-left: 10px;
+}
+
+.testimonial-bottom p {
+  color: #0b132a;
+}
+
 /************* 0. responsive *************/
+@media (max-width: 992px) {
+  .customer-wraper {
+    flex-wrap: wrap;
+  }
+}
+
 @media (min-width: 769px) {
   .hero-p,
   .about-h-title {
@@ -342,6 +406,11 @@ section.services-sec {
   .w-b-s-t {
     width: 74%;
   }
+
+  .customer-title-h {
+    width: 35%;
+    margin-inline: auto;
+  }
 }
 
 @media (max-width: 769px) {
@@ -368,6 +437,12 @@ section.services-sec {
 
   .about-h-bg {
     height: 520px;
+  }
+
+  .customer-wraper {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
   }
 }
 
